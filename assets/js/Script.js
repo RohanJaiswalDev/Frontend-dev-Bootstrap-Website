@@ -29,3 +29,18 @@ window.addEventListener('scroll', function () {
 document.querySelector('#back-to-top').addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+
+// Initialize AOS
+    AOS.init({
+        duration: 800, // Animation duration
+    easing: 'ease-in-out', // Easing type
+    once: true // Whether animation should happen only once
+  });
+
+  // Disable on screens smaller than 768px
+  AOS.init({
+    disable: function() {
+      return window.innerWidth < 768; // Disable on screens smaller than 768px
+    }
+  });

@@ -7,10 +7,12 @@
     <!-- Title -->
     <title>Frontend Dev | Bootstrap Website</title>
     <!-- Favicon -->
-     <link rel="shortcut icon" href="assets/svg/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/svg/logo.svg" type="image/x-icon">
     <!-- CSS Files -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Main CSS File -->
     <link rel="stylesheet" href="assets/css/Style.css">
 </head>
@@ -19,7 +21,7 @@
 
     <!-- Navigation-bar -->
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-custom-white position-fixed w-100">
+        <nav class="navbar navbar-expand-lg bg-custom-white position-fixed w-100" data-aos="fade-down">
             <div class="container p-2">
                 <a class="navbar-brand" href="Index.html">
                     <img src="assets/svg/logo.svg" alt="Bootstrap" width="35px">
@@ -56,7 +58,7 @@
     </header>
 
     <!-- section- home -->
-    <div id="home" class="position-relative">
+    <div id="home" class="position-relative" data-aos="fade">
         <video class="w-100 h-100" autoplay muted loop style="object-fit: cover" playsinline>
             <source src="assets/video/Hero-vid.mp4" type="video/mp4" />
         </video>
@@ -88,8 +90,8 @@
         <!--My skill start-->
         <section class="my-xl-10">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-8 col-12">
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-4 col-md-8 col-12" data-aos="fade-right">
                         <div class="mb-6 mb-lg-0">
                             <small class="text-uppercase fw-bold ls-md text-body-tertiary">MY
                                 SKILLS</small>
@@ -105,9 +107,9 @@
                             <a href="#!" class="btn btn-danger">View More Details</a>
                         </div>
                     </div>
-                    <div class="col-lg-7 offset-lg-1 col-12">
+                    <div class="col-lg-7 offset-lg-1 col-12" data-aos="fade-left">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                                 <div class="card bg-danger bg-opacity-10 border-0 mb-5">
                                     <div class="card-body">
                                         <div class="mb-4">
@@ -155,7 +157,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 mt-md-5">
+                            <div class="col-md-6 mt-md-5" data-aos="fade-up" data-aos-delay="150">
                                 <div class="card bg-info bg-opacity-10 border-0 mb-5">
                                     <div class="card-body">
                                         <div class="mb-4">
@@ -213,7 +215,7 @@
     <section id="about">
         <div class="pattern-square"></div>
         <!-- pageheader-->
-        <div class="py-5 py-lg-8">
+        <div class="py-5 py-lg-8" data-aos="fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
@@ -237,25 +239,25 @@
         <div class="my-xl-0 my-4">
             <div class="mx-auto overflow-x-hidden">
                 <div class="row row-cols-lg-5 row-cols-md-3 row-cols-2 justify-content-center g-5 mb-lg-7 px-5">
-                    <div class="col">
+                    <div class="col" data-aos="fade-up" data-aos-delay="100">
                         <figure>
                             <img src="assets/img/testimonial-1.jpg" alt="developer" width="200px"
                                 class="img-fluid rounded" />
                         </figure>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-up" data-aos-delay="150">
                         <figure>
                             <img src="assets/img/testimonial-2.jpg" alt="developer" width="200px"
                                 class="img-fluid rounded" />
                         </figure>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-up" data-aos-delay="200">
                         <figure>
                             <img src="assets/img/testimonial-3.jpg" alt="developer" width="200px"
                                 class="img-fluid rounded" />
                         </figure>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-up" data-aos-delay="250">
                         <figure>
                             <img src="assets/img/testimonial-4.jpg" alt="developer" width="200px"
                                 class="img-fluid rounded" />
@@ -473,10 +475,10 @@
 
     <!-- Section - Pricing -->
     <section id="price">
-        <section class="py-xl-9 bg-gray-100">
+        <section class="py-xl-9 bg-gray-100" data-aos="fade-up">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 offset-md-2">
+                    <div class="col-md-8 offset-md-2" data-aos="fade-up">
                         <div class="text-center mb-xl-9 mb-5">
                             <h2 class="mb-3">Our Prices</h2>
                         </div>
@@ -485,7 +487,7 @@
                 <!-- Pricing Style 3 -->
                 <div class="table-responsive-lg">
                     <div class="d-flex justify-content-center flex-wrap me-lg-0">
-                        <div class="col-lg-4 col-md-6 col-12">
+                        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="100">
                             <!--card-->
                             <div class="card bg-gray-200 border-0 p-2 mb-5 mb-xl-0">
                                 <div class="card-body bg-dark text-white shadow rounded-2">
@@ -575,7 +577,7 @@
                             </div>
                             <!--card-->
                         </div>
-                        <div class="col-lg-4 col-md-6 col-12">
+                        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
                             <!--card-->
                             <div class="card bg-dark-subtle border-0 p-2 mb-5 mb-xl-0 position-relative">
                                 <div class="card-body bg-white shadow rounded-2">
@@ -665,7 +667,7 @@
                             </div>
                             <!--card-->
                         </div>
-                        <div class="col-lg-4 col-md-6 col-12">
+                        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
                             <!--card-->
                             <div class="card bg-gray-200 border-0 p-2 mb-xl-0">
                                 <div class="card-body bg-dark text-white shadow rounded-2">
@@ -765,10 +767,10 @@
     <!-- Section - Team -->
     <section id="team">
         <!--behind the block-->
-        <div class="mb-lg-9 mb-5">
+        <div class="mb-lg-9 mb-5" data-aos="fade-up">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 xol-12">
+                    <div class="col-lg-12 col-md-12 xol-12" data-aos="fade-up">
                         <div class="text-center mb-7">
                             <h2 class="mt-1">Our Teamdevelopers</h2>
                             <p class="mb-0" style="padding-bottom: 20px;">Working from all around the world to
@@ -777,7 +779,7 @@
                     </div>
                 </div>
                 <div class="row gy-5 text-center">
-                    <div class="col-lg-3 col-md-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="100">
                         <div class="team-box">
                             <figure class="mb-4 zoom-img">
                                 <img src="assets/img/team-1.png" alt="team" class="rounded-3 img-fluid" width="200px" />
@@ -808,7 +810,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-box">
                             <figure class="mb-4 zoom-img">
                                 <img src="assets/img/team-2.png" alt="team" class="rounded-3 img-fluid" width="200px" />
@@ -839,7 +841,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
                         <div class="team-box">
                             <figure class="mb-4 zoom-img">
                                 <img src="assets/img/team - 3.png" alt="team" class="rounded-3 img-fluid"
@@ -871,7 +873,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
                         <div class="team-box">
                             <figure class="mb-4 zoom-img">
                                 <img src="assets/img/team-4.png" alt="team" class="rounded-3 img-fluid" width="200px" />
@@ -911,12 +913,12 @@
     <!-- Section - Contact -->
     <section id="contact">
         <!--Working together start-->
-        <div class="my-lg-9 my-5">
+        <div class="my-lg-9 my-5" data-aos="fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-md-12">
                         <div class="row g-lg-10 gy-5 align-items-center">
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-right">
                                 <div class="card bg-light">
                                     <div class="card-body p-5">
                                         <h3 class="mb-4">Interested in working
@@ -952,7 +954,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 contact-box">
+                            <div class="col-md-6 contact-box" data-aos="fade-left">
                                 <div class="mb-7 text-center text-lg-start">
                                     <div class="mb-3">
                                         <img src="assets/img/team-2.png" alt="avatar"
@@ -1058,6 +1060,8 @@
 
     <!-- Script Files -->
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Main Script File -->
     <script src="assets/js/Script.js"></script>
 
