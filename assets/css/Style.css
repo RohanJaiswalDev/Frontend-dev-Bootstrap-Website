@@ -1,0 +1,116 @@
+/* Google font - Poppins */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600");
+
+/* Globally Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* section */
+
+section {
+    padding-top: 80px;
+}
+
+/* Navigation-bar */
+
+.navbar {
+    background: transparent;
+}
+
+.bg-custom-dark {
+    z-index: 999;
+}
+
+.navbar ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.5px;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+/* Home */
+
+#home {
+    height: 100vh !important;
+}
+
+#her0 video {
+    height: 100vh !important;
+}
+
+.custom-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Price */
+
+#price {
+    padding-bottom: 50px;
+}
+
+.position-box {
+    position: absolute;
+    top: 0px;
+    right: 35%;
+    z-index: 99;
+    background: #000;
+    text-align: center;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+/* Team */
+
+.team-box {
+    padding: 20px 10px;
+    border-radius: 6px;
+    background: #3b799a;
+    color: #fff;
+
+}
+
+.team-hover:hover {
+    background: #12568a;
+    color: #fff;
+}
+
+/* COntact */
+
+.contact-box {
+    padding: 32px;
+    background: #f8f9fa;
+    border: 1px solid rgb(0 0 0 / 18%);
+    border-radius: 0.375rem;
+
+}
+
+.contact-link-hover:hover {
+    background: gray;
+}
+
+/* Back to top */
+
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: crimson;
+    font-size: 24px;
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

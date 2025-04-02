@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Frontend Dev | Bootstrap Website</title>
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="assets/svg/logo.svg" type="image/x-icon">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/Style.css">
+</head>
+
+<body>
+
+    <!-- Navigation-bar -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-custom-dark position-fixed w-100 z-index-1030 rounded">
+            <div class="container p-2">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/svg/logo.svg" alt="Bootstrap" width="35px">
+                </a>
+                <button class="navbar-toggler border-white text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto align-items-lg-center gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-white  text-capitalize" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white  text-capitalize" href="#feature">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white  text-capitalize" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white  text-capitalize" href="#price">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white  text-capitalize" href="#team">Team</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3 mt-lg-0">
+                        <a href="#contact"><button class="btn btn-outline-light" type="submit">Contact</button></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- section- home -->
+    <div id="home" class="position-relative">
+        <video class="w-100 h-100" autoplay muted loop style="object-fit: cover" playsinline>
+            <source src="assets/video/Hero-vid.mp4" type="video/mp4" />
+        </video>
+        <div class="container custom-position py-lg-10 text-white" data-cue="fadeIn">
+            <div class="row py-lg-10 justify-content-center text-center">
+                <div class="col-lg-9 col-12">
+                    <div class="d-flex flex-column gap-6">
+                        <div class="d-flex flex-column gap-4">
+                            <h1 class="text-white-stable display-4 mb-0">Hey, I'm Rohan Jaiswal, a frontend developer
+                                specializing in Bootstrap.</h1>
+                            <p class="mb-0 text-white-50 lead px-lg-10">
+                                I create responsive and visually appealing websites with clean, efficient code. I focus
+                                on making web experiences seamless across all devices using Bootstrap's powerful
+                                framework.
+                            </p>
+                        </div>
+                        <div class="d-md-flex d-grid align-items-center justify-content-md-center gap-3 my-4">
+                            <a href="#!" class="btn btn-dark rounded">Hire Me!</a>
+                            <a href="#!" class="btn btn-warning rounded">Let's Talk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section - features -->
+    <section id="feature">
+        <!--My skill start-->
+        <section class="my-xl-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-8 col-12">
+                        <div class="mb-6 mb-lg-0">
+                            <small class="text-uppercase fw-bold ls-md text-body-tertiary">MY
+                                SKILLS</small>
+
+                            <h2 class="my-3">
+                                A Developer
+                                <span class="text-danger">Skills</span>
+                            </h2>
+                            <p class="mb-5">I'm a frontend developer passionate about building sleek, user-friendly, and
+                                high-performance web applications. With a strong eye for design and an obsession with
+                                clean code, I bring ideas to life using modern technologies.
+                            </p>
+                            <a href="#!" class="btn btn-danger">View More Details</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card bg-danger bg-opacity-10 border-0 mb-5">
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <img src="assets/svg/html-5-svg.svg" alt="html" width="50px">
+                                        </div>
+                                        <div class="mb-4">
+                                            <h3>HTML & CSS</h3>
+                                            <p class="mb-0">I create responsive and accessible designs with
+                                                pixel-perfect precision, ensuring a smooth experience across all
+                                                devices.</p>
+                                        </div>
+
+                                        <a href="#!" class="icon-link icon-link-hover link-danger">
+                                            Visit
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card bg-warning bg-opacity-10 border-0 mb-5 mb-lg-0">
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <img src="assets/svg/figma-svg.svg" alt="html" width="50px">
+                                        </div>
+                                        <div class="mb-4">
+                                            <h3>Figma UI Design</h3>
+                                            <p class="mb-0">I design intuitive and aesthetically pleasing user
+                                                interfaces. From wireframes to high-fidelity prototypes, I craft
+                                                seamless user experiences</p>
+                                        </div>
+
+                                        <a href="#!" class="icon-link icon-link-hover link-warning">
+                                            Visit
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-md-5">
+                                <div class="card bg-info bg-opacity-10 border-0 mb-5">
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <img src="assets/svg/react-svg.svg" alt="html" width="50px">
+                                        </div>
+                                        <div class="mb-4">
+                                            <h3>React</h3>
+                                            <p class="mb-0">I develop dynamic and interactive web applications with
+                                                reusable components, state management, and performance optimization.</p>
+                                        </div>
+
+                                        <a href="#!" class="icon-link icon-link-hover link-info">
+                                            Visit
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card bg-success bg-opacity-10 border-0 mb-5 mb-lg-0">
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <img src="assets/svg/node-js-svg.svg" alt="html" width="50px">
+                                        </div>
+                                        <div class="mb-4">
+                                            <h3>Node.js</h3>
+                                            <p class="mb-0">I build scalable backend solutions, handling APIs,
+                                                databases, and server-side logic for seamless functionality.</p>
+                                        </div>
+
+                                        <a href="#!" class="icon-link icon-link-hover link-success">
+                                            Visit
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--My skill end-->
+    </section>
+
+    <!-- Section About -->
+    <section id="about">
+        <div class="pattern-square"></div>
+        <!-- pageheader-->
+        <div class="py-5 py-lg-8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <h1 class="mb-2">Work With Teamdevelopers. Join Us.</h1>
+                                <p class="mb-0">
+                                    We're always on the lookout for passionate and inspired individuals looking to do
+                                    impactful work and make positive change.
+                                </p>
+                            </div>
+                            <a href="#openPosition" class="btn btn-danger me-2">Open Positions</a>
+                            <a href="#!" class="btn btn-outline-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pageheader-->
+        <!--image-->
+        <div class="my-xl-0 my-4">
+            <div class="mx-auto overflow-x-hidden">
+                <div class="row row-cols-lg-5 row-cols-md-3 row-cols-2 justify-content-center g-5 mb-lg-7 px-5">
+                    <div class="col">
+                        <figure>
+                            <img src="assets/img/testimonial-1.jpg" alt="developer" width="200px"
+                                class="img-fluid rounded" />
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure>
+                            <img src="assets/img/testimonial-2.jpg" alt="developer" width="200px"
+                                class="img-fluid rounded" />
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure>
+                            <img src="assets/img/testimonial-3.jpg" alt="developer" width="200px"
+                                class="img-fluid rounded" />
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure>
+                            <img src="assets/img/testimonial-4.jpg" alt="developer" width="200px"
+                                class="img-fluid rounded" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="mb-4 mb-sm-0">
+                            <small class="text-uppercase ls-md fw-bold text-primary">Our culture</small>
+                            <p class="mb-0 lead mt-3">
+                                We base our philosophy on the principles of learning, collaboration, transparency,
+                                experimentation and passion.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offset-xl-1 col-xl-4 col-md-6">
+                        <ul class="mb-0 list-unstyled">
+                            <li class="mb-2 d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                    class="bi bi-check-circle-fill text-dark mt-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <span class="ms-2">
+                                    We are
+                                    <span class="text-dark fw-semibold">goal-driven</span>
+                                    and
+                                    <span class="text-dark fw-semibold">dedicated</span>
+                                </span>
+                            </li>
+                            <li class="mb-2 d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                    class="bi bi-check-circle-fill text-dark mt-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <span class="ms-2">
+                                    We
+                                    <span class="text-dark fw-semibold">use our own tools</span>
+                                    every day
+                                </span>
+                            </li>
+                            <li class="mb-2 d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                    class="bi bi-check-circle-fill text-dark mt-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <span class="ms-2">
+                                    We thrive together with our
+                                    <span class="text-dark fw-semibold">community</span>
+                                </span>
+                            </li>
+                            <li class="mb-2 d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                    class="bi bi-check-circle-fill text-dark mt-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <span class="ms-2">
+                                    We are
+                                    <span class="text-dark fw-semibold">customer obsessed</span>
+                                </span>
+                            </li>
+                            <li class="mb-2 d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                    class="bi bi-check-circle-fill text-dark mt-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <span class="ms-2">
+                                    We believe in
+                                    <span class="text-dark fw-semibold">people's ability to grow</span>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--image-->
+        <!--our benefits-->
+        <section class="my-xl-9 my-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 offset-xl-4 col-md-12">
+                        <div class="text-center mb-xl-7 mb-5">
+                            <small class="text-uppercase ls-md fw-semibold text-primary">Our benefits</small>
+                            <h2 class="mt-3 mb-0">Work Happier With Us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-6">
+                    <div class="col-md-6">
+                        <div class="d-flex m-3">
+                            <div class="icon-xl icon-shape rounded-circle flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-prescription2 text-warning-emphasis" viewBox="0 0 16 16">
+                                    <path d="M7 6h2v2h2v2H9v2H7v-2H5V8h2V6Z" />
+                                    <path
+                                        d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v10.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 14.5V4a1 1 0 0 1-1-1V1Zm2 3v10.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5V4H4ZM3 3h10V1H3v2Z" />
+                                </svg>
+                            </div>
+                            <div class="ms-4">
+                                <h4>Inclusive Health Package</h4>
+                                <p class="mb-0">
+                                    We care about your well-being, and offer dental and vision benefits for you and your
+                                    family. No stress on health expenses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex m-3">
+                            <div class="icon-xl icon-shape rounded-circle flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-globe-asia-australia text-danger" viewBox="0 0 16 16">
+                                    <path
+                                        d="m10.495 6.92 1.278-.619a.483.483 0 0 0 .126-.782c-.252-.244-.682-.139-.932.107-.23.226-.513.373-.816.53l-.102.054c-.338.178-.264.626.1.736a.476.476 0 0 0 .346-.027ZM7.741 9.808V9.78a.413.413 0 1 1 .783.183l-.22.443a.602.602 0 0 1-.12.167l-.193.185a.36.36 0 1 1-.5-.516l.112-.108a.453.453 0 0 0 .138-.326ZM5.672 12.5l.482.233A.386.386 0 1 0 6.32 12h-.416a.702.702 0 0 1-.419-.139l-.277-.206a.302.302 0 1 0-.298.52l.761.325Z" />
+                                    <path
+                                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM1.612 10.867l.756-1.288a1 1 0 0 1 1.545-.225l1.074 1.005a.986.986 0 0 0 1.36-.011l.038-.037a.882.882 0 0 0 .26-.755c-.075-.548.37-1.033.92-1.099.728-.086 1.587-.324 1.728-.957.086-.386-.114-.83-.361-1.2-.207-.312 0-.8.374-.8.123 0 .24-.055.318-.15l.393-.474c.196-.237.491-.368.797-.403.554-.064 1.407-.277 1.583-.973.098-.391-.192-.634-.484-.88-.254-.212-.51-.426-.515-.741a6.998 6.998 0 0 1 3.425 7.692 1.015 1.015 0 0 0-.087-.063l-.316-.204a1 1 0 0 0-.977-.06l-.169.082a1 1 0 0 1-.741.051l-1.021-.329A1 1 0 0 0 11.205 9h-.165a1 1 0 0 0-.945.674l-.172.499a1 1 0 0 1-.404.514l-.802.518a1 1 0 0 0-.458.84v.455a1 1 0 0 0 1 1h.257a1 1 0 0 1 .542.16l.762.49a.998.998 0 0 0 .283.126 7.001 7.001 0 0 1-9.49-3.409Z" />
+                                </svg>
+                            </div>
+                            <div class="ms-4">
+                                <h4>Flexible Working Style</h4>
+                                <p class="mb-0">We are 100% remote-friendly, work with team mates from different time
+                                    zones
+                                    across the globe.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex m-3">
+                            <div class="icon-xl icon-shape rounded-circle flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-people-fill text-primary" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                                </svg>
+                            </div>
+                            <div class="ms-4">
+                                <h4>Diversity and Inclusion</h4>
+                                <p class="mb-0">
+                                    Our strength lies in team members from diverse backgrounds with a culture of
+                                    inclusion
+                                    where everyone feels respected.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex m-3">
+                            <div class="icon-xl icon-shape rounded-circle flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-easel text-success" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0zM2 3v7h12V3H2z" />
+                                </svg>
+                            </div>
+                            <div class="ms-4">
+                                <h4>Learn And Grow</h4>
+                                <p class="mb-0">
+                                    We help you grow in your career with ongoing mentorship, and send you to events so
+                                    you
+                                    can build your network.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex m-3">
+                            <div class="icon-xl icon-shape rounded-circle flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-emoji-heart-eyes text-info" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z" />
+                                </svg>
+                            </div>
+                            <div class="ms-4">
+                                <h4>Balanced Working Life</h4>
+                                <p class="mb-0">We offer an open vacation policy with a recommended 4-weeks per year.
+                                    Recharge whenever you need to.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex m-3">
+                            <div class="icon-xl icon-shape rounded-circle  flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-cash-stack text-primary" viewBox="0 0 16 16">
+                                    <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                                    <path
+                                        d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z" />
+                                </svg>
+                            </div>
+                            <div class="ms-4">
+                                <h4>Generous Perks Program</h4>
+                                <p class="mb-0">
+                                    We offer several perk stipends to support healthy home office ergonomics, continuous
+                                    learning, wellness and connectivity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--our benefits-->
+    </section>
+
+
+    <!-- Section - Pricing -->
+    <section id="price">
+        <section class="py-xl-9 bg-gray-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="text-center mb-xl-9 mb-5">
+                            <h2 class="mb-3">Our Prices</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pricing Style 3 -->
+                <div class="table-responsive-lg">
+                    <div class="d-flex justify-content-center flex-wrap me-lg-0">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!--card-->
+                            <div class="card bg-gray-200 border-0 p-2 mb-5 mb-xl-0">
+                                <div class="card-body bg-dark text-white shadow rounded-2">
+                                    <div class="mb-5">
+                                        <h3 class="h6 mb-3">All Access</h3>
+                                        <h2 class="d-flex align-items-center">
+                                            <span class="text-white">$9.00*</span>
+                                            <del class="text-danger ms-1">$29</del>
+                                        </h2>
+                                    </div>
+                                    <div class="mb-5">
+                                        <span class="small">200 Seats
+                                            Remaining</span>
+                                        <div class="progress mt-2" role="progressbar" aria-label="Event Ticket"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="height: 8px">
+                                            <div class="progress-bar bg-dark bg-opacity-50" style="width: 70%"></div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">1 Day Access</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Breakfast, Lunch &
+                                                party</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Live video online
+                                                Access</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-x-circle-fill text-danger"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+                                            </svg>
+                                            <span class="ms-3">Speaker Meet and
+                                                Greets</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-x-circle-fill text-danger"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+                                            </svg>
+                                            <span class="ms-3">Get a
+                                                Certificate</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-x-circle-fill text-danger"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+                                            </svg>
+                                            <span class="ms-3">Assigned Inbound
+                                                Expert</span>
+                                        </li>
+                                    </ul>
+                                    <div class="d-grid mt-5">
+                                        <a href="#" class="btn btn-outline-warning">Register
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--card-->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!--card-->
+                            <div class="card bg-dark-subtle border-0 p-2 mb-5 mb-xl-0 position-relative">
+                                <div class="card-body bg-white shadow rounded-2">
+                                    <div class="mb-5">
+                                        <h3 class="h6 mb-3 position-box text-white">Popular</h3>
+                                        <h3 class="h6 mb-3">Membership</h3>
+                                        <h2 class="d-flex align-items-center">
+                                            <span class="text-dark">$49.00*</span>
+                                            <del class="text-danger ms-1">$129</del>
+                                        </h2>
+                                    </div>
+                                    <div class="mb-5">
+                                        <span class="small">67 Seats
+                                            Remaining</span>
+                                        <div class="progress mt-2" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="height: 8px">
+                                            <div class="progress-bar bg-danger bg-opacity-100" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">3 Day Access</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Breakfast, Lunch &
+                                                party</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Live video online
+                                                Access</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Speaker Meet and
+                                                Greets</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Get a
+                                                Certificate</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-x-circle-fill text-danger"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+                                            </svg>
+                                            <span class="ms-3">Assigned Inbound
+                                                Expert</span>
+                                        </li>
+                                    </ul>
+                                    <div class="d-grid mt-5">
+                                        <a href="#" class="btn btn-dark">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--card-->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!--card-->
+                            <div class="card bg-gray-200 border-0 p-2 mb-xl-0">
+                                <div class="card-body bg-dark text-white shadow rounded-2">
+                                    <div class="mb-5">
+                                        <h3 class="h6 mb-3">VIP +</h3>
+                                        <h2 class="d-flex align-items-center">
+                                            <span class="text-white">$89.00*</span>
+                                            <del class="text-danger ms-1">$199</del>
+                                        </h2>
+                                    </div>
+                                    <div class="mb-5">
+                                        <span class="small">234 Seats
+                                            Remaining</span>
+                                        <div class="progress mt-2" role="progressbar" aria-label="Basic example"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="height: 8px">
+                                            <div class="progress-bar bg-secondary bg-opacity-50" style="width: 70%">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">3 Day Access</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Breakfast, Lunch &
+                                                party</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Live video online
+                                                Access</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Speaker Meet and
+                                                Greets</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Get a
+                                                Certificate</span>
+                                        </li>
+                                        <li class="mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="currentColor" class="bi bi-check-circle-fill text-success"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <span class="ms-3">Assigned Inbound
+                                                Expert</span>
+                                        </li>
+                                    </ul>
+                                    <div class="d-grid mt-5">
+                                        <a href="#" class="btn btn-outline-warning">Get the
+                                            VIP plus tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--card-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Section - Team -->
+    <section id="team">
+        <!--behind the block-->
+        <div class="mb-lg-9 mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 xol-12">
+                        <div class="text-center mb-7">
+                            <h2 class="mt-1">Our Teamdevelopers</h2>
+                            <p class="mb-0" style="padding-bottom: 20px;">Working from all around the world to
+                                build the Web of tomorrow.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gy-5 text-center">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="team-box">
+                            <figure class="mb-4 zoom-img">
+                                <img src="assets/img/team-1.png" alt="team" class="rounded-3 img-fluid" width="200px" />
+                            </figure>
+                            <div class="mb-4">
+                                <h4 class="mb-1"><a href="#!" class="text-reset text-decoration-none">Jitu
+                                        Chauhna</a></h4>
+                                <span class="fs-6">Co-Founder & CEO</span>
+                            </div>
+
+                            <span>
+                                <a href="#!" class="btn btn-instagram btn-icon border-white team-hover text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="#!" class="btn btn-twitter btn-icon border-white team-hover text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="team-box">
+                            <figure class="mb-4 zoom-img">
+                                <img src="assets/img/team-2.png" alt="team" class="rounded-3 img-fluid" width="200px" />
+                            </figure>
+                            <div class="mb-4">
+                                <h4 class="mb-1"><a href="#!" class="text-reset text-decoration-none">Anita
+                                        Parmar</a></h4>
+                                <span class="fs-6">Co-Founder</span>
+                            </div>
+
+                            <span>
+                                <a href="#!" class="btn btn-instagram btn-icon border-white team-hover text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="#!" class="btn btn-twitter btn-icon border-white team-hover text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="team-box">
+                            <figure class="mb-4 zoom-img">
+                                <img src="assets/img/team - 3.png" alt="team" class="rounded-3 img-fluid"
+                                    width="200px" />
+                            </figure>
+                            <div class="mb-4">
+                                <h4 class="mb-1"><a href="#!" class="text-reset text-decoration-none">Sandip
+                                        Chauhan</a></h4>
+                                <span class="fs-6">Creative Director</span>
+                            </div>
+
+                            <span>
+                                <a href="#!" class="btn btn-instagram btn-icon border-white team-hover text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="#!" class="btn btn-twitter btn-icon border-white team-hover text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="team-box">
+                            <figure class="mb-4 zoom-img">
+                                <img src="assets/img/team-4.png" alt="team" class="rounded-3 img-fluid" width="200px" />
+                            </figure>
+                            <div class="mb-4">
+                                <h4 class="mb-1"><a href="#!" class="text-reset text-decoration-none">Manasvi
+                                        Suthar</a></h4>
+                                <span class="fs-6">Lead Developer</span>
+                            </div>
+
+                            <span>
+                                <a href="#!" class="btn btn-instagram btn-icon border-white team-hover text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="#!" class="btn btn-twitter btn-icon border-white team-hover text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--behind the block-->
+    </section>
+
+    <!-- Section - Contact -->
+    <section id="contact">
+        <!--Working together start-->
+        <div class="my-lg-9 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-md-12">
+                        <div class="row g-lg-10 gy-5 align-items-center">
+                            <div class="col-md-6">
+                                <div class="card bg-light">
+                                    <div class="card-body p-5">
+                                        <h3 class="mb-4">Interested in working
+                                            together? Let's talk. Just Say Hi!</h3>
+
+                                        <form class="needs-validation" novalidate>
+                                            <div class="mb-3">
+                                                <label for="YourNameInput" class="form-label">Your Full Name</label>
+                                                <input type="text" class="form-control" id="YourNameInput"
+                                                    placeholder="Name" required="" />
+                                                <div class="invalid-feedback">Please
+                                                    enter yourname.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="yourEmailInput" class="form-label">Your Email
+                                                    Address</label>
+                                                <input type="email" class="form-control" id="yourEmailInput"
+                                                    placeholder="Email" required="" />
+                                                <div class="invalid-feedback">Please
+                                                    enter email.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="messageTextarea" class="form-label">Describe your
+                                                    project</label>
+                                                <textarea class="form-control" id="messageTextarea"
+                                                    placeholder="Write Your Message here..." rows="4"
+                                                    required></textarea>
+                                                <div class="invalid-feedback">Please
+                                                    enter a message.</div>
+                                            </div>
+                                            <button class="btn btn-dark w-100" type="submit">Contact me</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 contact-box">
+                                <div class="mb-7 text-center text-lg-start">
+                                    <div class="mb-3">
+                                        <img src="assets/img/team-2.png" alt="avatar"
+                                            class="avatar avatar-xl rounded-circle" width="200px" />
+                                    </div>
+
+                                    <h3 class="mb-0">TeamDeveloper</h3>
+                                    <small>A Frontend Developer/Engeenier</small>
+                                </div>
+                                <div class="d-flex my-3">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="mb-0">Address:</h5>
+                                        <small>Delhi, India</small>
+                                    </div>
+                                </div>
+                                <div class="d-flex my-3">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                        </svg>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="mb-0">Phone:</h5>
+                                        <small>
+                                            +91 82874-93774
+                                        </small>
+                                    </div>
+                                </div>
+                                <div class="d-flex my-3">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-envelope-check" viewBox="0 0 16 16">
+                                            <path
+                                                d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z" />
+                                            <path
+                                                d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z" />
+                                        </svg>
+                                    </div>
+                                    <div class="ms-2">
+                                        <h5 class="mb-0">E-mail:</h5>
+
+                                        <small>
+                                            <a href="#" class="text-reset">1Nonlythecoder@gmail.com</a>
+                                        </small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="#!"
+                                        class="btn btn-instagram btn-icon border-dark contact-link-hover text-dark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                        </svg>
+                                    </a>
+                                    <a href="#!"
+                                        class="btn btn-twitter btn-icon border-dark contact-link-hover text-dark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                            <path
+                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                        </svg>
+                                    </a>
+                                    <a href="#!"
+                                        class="btn btn-youtube btn-icon border-dark contact-link-hover text-dark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                        </svg>
+                                    </a>
+                                    <a href="#!"
+                                        class="btn btn-linkedin btn-icon border-dark contact-link-hover text-dark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--Working together end-->
+    </section>
+
+    <!-- Back to top -->
+    <div id="back-to-top" style="display: block;">
+        <i class="bi bi-arrow-up"></i>
+    </div>
+
+    <!-- Script Files -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Main Script File -->
+    <script src="assets/js/Script.js"></script>
+
+</body>
+
+</html>
