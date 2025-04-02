@@ -1,15 +1,3 @@
-
-// scroll down background color change - navigation-bar
-document.addEventListener("scroll", () => {
-    const header = document.querySelector(".header nav.navbar");
-    if (window.scrollY > 250) {
-        header.classList.add("bg-dark");
-    } else {
-        header.classList.remove("bg-dark");
-    }
-});
-
-
 // Smooth anchor tag
 document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll('a[href^="#"]');
